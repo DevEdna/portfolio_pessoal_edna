@@ -1,0 +1,46 @@
+.section-externa-sobre-mim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloco-sobre-mim {
+    display: flex;
+    background: #E1DDFF;
+    padding: 23px;
+    width: 100%;
+    height: auto;
+}
+
+.texto-sobre-mim {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    color: #393939;
+    max-width: 28rem;
+    margin-bottom: 1rem;
+}
+
+.icon-baixar {
+    margin-left: 10px;
+    width: 1rem;
+}
+
+.btn-roxo--curriculo {
+    width: 11rem;
+    height: 3.1rem;
+}
+
+.div-sobre-mim-imagem{
+    display: flex;
+    flex-shrink: 1;
+    margin-bottom: 2rem;
+}
+
+.imagem-sobre-mim{
+    width:80%;
+    max-width: 100%;
+}

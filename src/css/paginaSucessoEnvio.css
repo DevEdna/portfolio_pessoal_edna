@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;600&display=swap');
+
+.div-externa-mensagem {
+    margin: 5rem auto;
+    width: 50%;
+    height: auto;
+    padding: 2rem 3rem;
+    background: #f9f9f9;
+    border-radius: 9px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25), 0px 2px 33px rgba(199, 201, 217, 0.41);
+    text-align: center;
+}
+
+.texto-mensagem-sucesso {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.btn-roxo {
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 16px;
+
+    background: #402EB4;
+    border-radius: 10px;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-roxo a{
+    color: #FFF;
+}

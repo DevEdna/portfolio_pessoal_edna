@@ -1,0 +1,271 @@
+:root {
+    --black: #130f0d;
+    --primary: #7868E6;
+    --white: #f0f0f9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#tabs-formacao-experiencia {
+    margin-bottom: 2rem;
+}
+
+.titulo-qualificacoes {
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    color: #19097D;
+}
+
+.subtitulo-qualificacoes {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 133.9%;
+    color: #424040;
+}
+
+.titulo-formacao{
+    color: #6F5FDB;
+}
+
+.titulo-formacao::before {
+    content: "";
+    display: inline-block;
+    background-image: url("/assets/icons/icon-formacao.svg");
+    width: 30px;
+    height: 18px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.titulo-experiencia::before {
+    content: "";
+    display: inline-block;
+    background-image: url("/assets/icons/icon-experiencia.svg");
+    width: 30px;
+    height: 17px;
+    background-size: 17px 17px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+
+.titulo-tabs-formacao-experiencia {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 133.9%;
+}
+
+.div-externa-qualificacoes {
+    margin: 1rem auto;
+    text-align: center;
+    max-width: 900px;
+}
+
+.div-externa-formacoes,
+.div-externa-experiencia {
+    background: #FEFEFE;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25), 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+
+    margin: 1rem auto;
+}
+
+.area-formacoes,
+.area-experiencia {
+    display: flex;
+    flex-direction: row;
+}
+
+.area-formacoes {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.area-formacoes {
+    height: 10rem;
+}
+
+.area-experiencia, .area-formacoes {
+    height: auto;
+    width: 100%;
+    padding: 2rem 1rem;
+}
+
+/* .area-formacoes{
+    padding: 1rem;
+} */
+
+.tabs-titulos {
+    margin-bottom: 0px;
+    margin-top: 0rem;
+}
+
+.tabs-titulos button {
+    border: none;
+    background: transparent;
+    padding: 16px;
+    outline: none;
+    position: relative;
+    margin-right: 1rem;
+}
+
+.nome-formacao, .nome-experiencia{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    
+    line-height: 30px;
+    color: #000000;
+}
+
+.nome-formacao{
+    font-size: 19px;
+}
+
+.nome-experiencia{
+    font-size: 17px;
+}
+
+.nome-formacao::before, .nome-experiencia::before {
+    content: "";
+    display: inline-block;
+    background-image: url("/assets/icons/estrelinha-icon.svg");
+    width: 30px;
+    height: 18px;
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.local-formacao, .local-experiencia {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    color: #484747;
+}
+
+.local-formacao{
+    font-size: 15px;
+}
+
+.local-experiencia{
+    font-size: 17px;
+}
+
+.periodo-formacao, .periodo-experiencia {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    color: #6F5FDB;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon-calendario {
+    width: 20px;
+}
+
+
+.descricao-experiencia {
+    font-size: 14px;
+    text-align: justify;
+    color: black;
+    line-height: 18px;
+    width: 23rem;
+    max-width: 100%;
+}
+
+.conteudo-experiencia {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabs-titulos button:focus {
+    color: #402EB4;
+    font-weight: 600;
+}
+
+.conteudo-formacao-experiencia>section {
+    animation: up 1s;
+}
+
+
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+@media (max-width:940px) {
+    .div-externa-qualificacoes{
+        max-width: 90%;
+    }
+}
+
+
+@media (max-width:812px) {
+    .area-experiencia {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .descricao-experiencia{
+        width: 27rem;
+    }
+
+    .div-externa-experiencia{
+        width: 90%;
+        max-width: 95%;
+    }
+
+    .conteudo-experiencia{
+        width: 95%;
+    }
+
+    .nome-formacao{
+        font-size: 17px;
+    }
+
+    .local-formacao{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:680px){
+    .area-formacoes {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .div-externa-experiencia{
+        width: 100%;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,74 @@
+:root {
+  --black: #130f0d;
+  --primary: #7868E6;
+  --white: #f0f0f9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.tab-links {
+  margin-bottom: 0px;
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.textos-tabs {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  color: #444444;
+}
+
+
+.tab-links button {
+  border: none;
+  background: transparent;
+  padding: 16px;
+  outline: none;
+  position: relative;
+  margin-right: 1rem;
+}
+
+.tabs {
+  margin-top: 30px;
+}
+
+.tab-links button::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  content: "";
+  height: 2px;
+  width: 0%;
+
+  background-color: var(--primary);
+  transition: .4s;
+}
+
+
+.tab-links button:hover::after,
+.tab-links button.active::after {
+  width: 100%;
+}
+
+.tab-content>section {
+  animation: up 1s;
+}
+
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+

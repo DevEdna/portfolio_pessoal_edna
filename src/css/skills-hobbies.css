@@ -1,0 +1,49 @@
+.icons-skills-hobbies {
+    width: 30px;
+}
+
+.retangulos-skills {
+    width: 120px;
+    height: 8rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25), 0px 2px 33px rgba(199, 201, 217, 0.41);
+    border-radius: 10px;
+    border-top: 7px solid #7868E6;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 0px;
+    /* color: #19097D; */
+    color:#3d2e9b;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+
+.area-skills {
+    height: 18rem;
+    grid-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    place-items: center;
+}
+
+.div-externa-skills {
+    max-width: 600px;
+    margin: -2rem auto;
+}
+
+.tag-aprendendo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: -1rem;
+    line-height: 0;
+    color: #5242b9;
+}

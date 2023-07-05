@@ -1,0 +1,52 @@
+.footer-pagina {
+    background: #E1DDFF;
+    width: 100%;
+    height: auto;
+    padding: 1rem 1rem 0.3rem 1rem;
+    margin: 0 auto;
+}
+
+.texto-principal-footer {
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    color: #19097D;
+}
+
+.texto-subtitulo-footer,
+.creditos-desenvolvimento {
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 34px;
+    color: #19097D;
+    margin-bottom: 1rem;
+}
+
+.creditos-desenvolvimento {
+    text-align: center;
+    margin-top: 1.3rem;
+}
+
+.textos-informacoes-contato {
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #1E1E1E;
+}
+
+.div-externa-contatos{
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+.titulo-contatos {
+    margin-bottom: 3rem;
+    text-align: center;
+}
