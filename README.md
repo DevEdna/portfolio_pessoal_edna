@@ -1,4 +1,4 @@
-# Portfolio_Pessoal_Edna
+# Portfólio Pessoal Edna
 #### Link para visualizar: https://portifolio-pessoal-edna.vercel.app/
 
 Portifólio desenvolvido por Edna Ferreira Leite.
