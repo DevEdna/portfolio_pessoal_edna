@@ -5,5 +5,5 @@ Portifólio desenvolvido por Edna Ferreira Leite.
 
 Email para contato: contato.ednafleite@gmail.com
 
-![print portfolio](https://github.com/DevEdna/Portifolio_Pessoal_Edna/assets/117689166/ada92e54-2eab-47cb-b303-321a99c722a0)
+![print portfolio](https://github.com/DevEdna/portfolio_pessoal_edna/assets/117689166/3eb2556d-b060-4dcb-a64e-41aaa4545677)
 
